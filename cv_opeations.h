@@ -4,8 +4,8 @@
 
 namespace pcv
 {
-	#define VIDEO 1;
-	#define IMAGE 2;
+	#define VIDEO 1
+	#define IMAGE 2
 
 	enum Operation_Mode
 	{
