@@ -129,7 +129,6 @@ namespace pcv
 			// It is necesary make it protected so the sons be able to use them with the necesity of add more methods
 			cv::Mat original;
 			cv::Mat* ptr2orig;			// Ptr that save the memory direction of the original image
-			cv::Mat input;				// Check because I think that it is not necesary
 			cv::Mat output;
 			
 			void ResetOutput() { output = original.clone(); }
